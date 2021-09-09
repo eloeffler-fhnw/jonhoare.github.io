@@ -216,7 +216,7 @@ Now both of my apps are available at `https://myfirstapp.example.com` and `https
 ## Rate Limits
 There are rate limits on the LetsEncrypt Service ([More Information]("https://letsencrypt.org/docs/rate-limits/")). If you are attempting to get up and running, you may hit the rate limits, so a handy tip is to use the LetsEncrypt Staging Servers to generate Test Certificates while you are testing the setup.
 
-To use the LetsEncrypt staging servers, just add the Environment Variable `ACME_CA_URI=https://acme-staging.api.letsencrypt.org/directory` to the **LetsEncrypt** service.
+To use the LetsEncrypt staging servers, just add the Environment Variable `ACME_CA_URI=https://acme-staging-v02.api.letsencrypt.org/directory` to the **LetsEncrypt** service.
 
 When you have this Environment Variable set, certificates can be generated as often as you like and will work but are not trusted by browsers.
 
